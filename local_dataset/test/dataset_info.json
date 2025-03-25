@@ -1,0 +1,102 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "swe-bench",
+  "dataset_size": 416520564,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/princeton-nlp/SWE-bench@33b46ffb3f0adaf751fbb99b9f66f23d469cf501/data/dev-00000-of-00001.parquet": {
+      "num_bytes": 1382594,
+      "checksum": null
+    },
+    "hf://datasets/princeton-nlp/SWE-bench@33b46ffb3f0adaf751fbb99b9f66f23d469cf501/data/test-00000-of-00001.parquet": {
+      "num_bytes": 12100105,
+      "checksum": null
+    },
+    "hf://datasets/princeton-nlp/SWE-bench@33b46ffb3f0adaf751fbb99b9f66f23d469cf501/data/train-00000-of-00001.parquet": {
+      "num_bytes": 106606519,
+      "checksum": null
+    }
+  },
+  "download_size": 120089218,
+  "features": {
+    "repo": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "instance_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "base_commit": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "patch": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "test_patch": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "problem_statement": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "hints_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "created_at": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "version": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "FAIL_TO_PASS": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "PASS_TO_PASS": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "environment_setup_commit": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 536609782,
+  "splits": {
+    "dev": {
+      "name": "dev",
+      "num_bytes": 4783179,
+      "num_examples": 225,
+      "dataset_name": "swe-bench"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 44127008,
+      "num_examples": 2294,
+      "dataset_name": "swe-bench"
+    },
+    "train": {
+      "name": "train",
+      "num_bytes": 367610377,
+      "num_examples": 19008,
+      "dataset_name": "swe-bench"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
